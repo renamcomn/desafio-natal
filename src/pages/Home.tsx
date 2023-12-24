@@ -6,16 +6,16 @@ import CountdownTimer from "../components/CounterDown";
 const number = Math.floor(Math.random() * 100) + 1
 
 export default function Home() {
-    const [bet, setBet] = useState<number>(0)
+    const [bet, setBet] = useState<string>('')
     const [acertou, setAcertou] = useState<boolean>(false)
     const [openMoreMessage, setOpenMoreMessage] = useState<boolean>(false)
     const [openMinusMessage, setOpenMinusMessage] = useState<boolean>(false)
     const navigate = useNavigate();
     
     const handleVerifyNumber = () => {
-        if(bet > number) {
+        if(parseInt(bet) > number) {
             setOpenMinusMessage(true)
-        } else if(bet < number) {
+        } else if(parseInt(bet) < number) {
             setOpenMoreMessage(true)
         } else {
             setAcertou(true)

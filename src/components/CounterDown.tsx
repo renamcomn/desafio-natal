@@ -4,7 +4,7 @@ const CountdownTimer: React.FC<{ minutes: number; seconds: number, acertou: bool
   const [time, setTime] = useState({ minutes, seconds });
 
   useEffect(() => {
-    let timer: NodeJS.Timeout;
+    let timer: ReturnType<typeof setTimeout> = 0
 
     if (time.minutes > 0 || time.seconds > 0) {
       timer = setInterval(() => {
