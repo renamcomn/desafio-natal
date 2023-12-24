@@ -37,26 +37,26 @@ export default function Fase4() {
     return (
         <Container>
             <CountdownTimer minutes={5} seconds={0} acertou={acertou} />
-            <Box display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                <img src={imgV} />
-                <img src={imgA} />
-                <img src={imgL} />
-                <img src={imgE} />
-                <img src={imgU} />
+            <Box display={'flex'} justifyContent={'flex-start'} alignItems={'center'}>
+                <img src={imgV} width={60} />
+                <img src={imgA} width={60} />
+                <img src={imgL} width={60} />
+                <img src={imgE} width={60} />
+                <img src={imgU} width={60} />
             </Box>
 
             <Box display={'flex'} justifyContent={'center'} alignItems={'center'} marginBottom={5}>
-                <img src={imgN} />
-                <img src={imgA} />
-                <img src={imgT} />
-                <img src={imgA} />
-                <img src={imgL} />
-                <img src={imgI} />
-                <img src={imgN} />
-                <img src={imgA} />
+                <img src={imgN} width={40}/>
+                <img src={imgA} width={40} />
+                <img src={imgT} width={40} />
+                <img src={imgA} width={40} />
+                <img src={imgL} width={40} />
+                <img src={imgI} width={40} />
+                <img src={imgN} width={40} />
+                <img src={imgA} width={40} />
             </Box>
 
-            <img src={TABELA}/>
+            <img src={TABELA} width={340}/>
 
             <Box>
             <TextField
