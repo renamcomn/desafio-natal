@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import Fase2 from './pages/Fase2';
 import Fase3 from './pages/Fase3';
 import Fase4 from './pages/Fase4';
-import Fase5 from './pages/Fase5';
 import Final from './pages/Final';
 
 const defaultTheme = createTheme();

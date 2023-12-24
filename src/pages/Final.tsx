@@ -7,7 +7,7 @@ export default function Final() {
     return (
         <Container>
             <h1 style={{ color: 'green'}}>{msg}</h1>
-            <iframe src="https://giphy.com/embed/xURk7rLZ7zX0twoJXS" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <iframe src="https://giphy.com/embed/xURk7rLZ7zX0twoJXS" width="480" height="480" frameBorder="0" allowFullScreen></iframe>
         </Container>
     )
 }

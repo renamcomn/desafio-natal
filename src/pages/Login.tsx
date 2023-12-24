@@ -8,7 +8,6 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { useNavigate } from 'react-router-dom';
-import { Margin } from '@mui/icons-material';
 
 export default function Login() {
     const [tentativas, setTentativas] = React.useState<number>(5)
